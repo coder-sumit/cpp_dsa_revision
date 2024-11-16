@@ -1,0 +1,16 @@
+{
+  "name": "auth_service",
+  "version": "1.0.0",
+  "description": "The user management service",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sumit <baghelsumit079@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}

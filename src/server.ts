@@ -1,15 +1,3 @@
-function welcome(name: string) {
-    console.log('Welcome to Pizza App!' + name);
-}
+import { Config } from './config';
 
-const user = {
-    name: 'Sumit',
-};
-
-const u1 = user.name;
-
-console.log('test log');
-
-welcome(u1);
-
-welcome('Sumit');
+console.log(Config.PORT);

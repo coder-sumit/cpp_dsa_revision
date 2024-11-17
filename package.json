@@ -4,7 +4,7 @@
     "description": "The user management service",
     "main": "server.js",
     "scripts": {
-        "dev": "node src/server.js",
+        "dev": "node dist/server.js",
         "format:fix": "npx prettier . --write",
         "format:check": "npx prettier . --check",
         "lint:check": "npx eslint .",
@@ -30,5 +30,8 @@
             "npm run format:fix",
             "npm run lint:fix"
         ]
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
     }
 }

@@ -8,6 +8,8 @@ const user = {
 
 const u1 = user.name;
 
+console.log('test log');
+
 welcome(u1);
 
 welcome('Sumit');

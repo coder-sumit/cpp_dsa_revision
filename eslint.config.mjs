@@ -31,7 +31,7 @@ export default [
                 },
             ],
             'no-undef': 'off', // To fix 'console' is not defined issue
-            'no-console': 'off',
+            'no-console': 'error',
             'dot-notation': 'error',
         },
     },

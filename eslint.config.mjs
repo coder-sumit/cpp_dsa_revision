@@ -36,6 +36,11 @@ export default [
         },
     },
     {
-        ignores: ['dist', 'node_modules', 'eslint.config.mjs'], // Ignore dist and node_modules
+        ignores: [
+            'dist',
+            'node_modules',
+            'eslint.config.mjs',
+            'jest.config.js',
+        ], // Ignore dist and node_modules
     },
 ];

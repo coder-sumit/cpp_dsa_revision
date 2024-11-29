@@ -5,7 +5,7 @@ import { Request, Response, NextFunction } from 'express';
 const app = express();
 
 app.get('/', async (req, res) => {
-    res.send('Welcome to Auth Service!');
+    res.status(200).send('Welcome to Auth Service!');
 });
 
 // global error handler

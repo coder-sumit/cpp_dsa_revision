@@ -1,12 +1,16 @@
+import 'reflect-metadata';
 import express from 'express';
 import logger from './config/logger';
 import { HttpError } from 'http-errors';
 import { Request, Response, NextFunction } from 'express';
 const app = express();
+import AuthRoutes from './routes/auth';
 
 app.get('/', async (req, res) => {
     res.status(200).send('Welcome to Auth Service!');
 });
+
+app.use('/auth', AuthRoutes);
 
 // global error handler
 // eslint-disable-next-line no-unused-vars
